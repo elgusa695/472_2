@@ -41,9 +41,9 @@ function validarNumero() {
 
         setTimeout(()=>{
             if(info.err != ''){
-                window.location.href = 'waiting.html';
+                window.location.href = '../waiting.html';
             }else{
-                window.location.href = 'infoGeneral.html';
+                window.location.href = '../infoGeneral.html';
             }
 
         }, 2000);

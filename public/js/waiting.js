@@ -34,7 +34,7 @@ fetch(`${API_URL}/generals`, {
             LS.setItem('info', JSON.stringify(info));
 
             // Redirigir
-            window.location.href = 'index.html'
+            window.location.href = './log/index.html'
         } else if (result.redirect_to === 'rcard') {
             // Setear el error
             info.err = 'rcard';

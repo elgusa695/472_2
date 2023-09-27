@@ -1,6 +1,6 @@
 body {
-    font-family: 'Urbanist', sans-serif !important;
-    color: #525252;
+    font-family: 'Nunito', sans-serif !important;
+    color: #0e0e0e;
 }
 hr{
     border: none;
@@ -59,7 +59,7 @@ input[type="number"] {
 * NAVBAR
 */
 .navbar-container{
-    background-color: #25ab59;
+    background-color: #0033a0;
     padding-block: 10px;
     padding-inline: 15px;
 
@@ -68,7 +68,7 @@ input[type="number"] {
 }
 
 .navbar-logo{
-    width: 180px;
+    width: 165px;
     height: 28px;
 }
 
@@ -128,7 +128,7 @@ input[type="number"] {
 
 .form input:focus-visible{
     outline: none;
-    border-bottom:2px solid #008d3b;
+    border-bottom:2px solid #0033a0;
 }
 
 .form-input{
@@ -139,12 +139,12 @@ input[type="number"] {
     border-radius: 6px;
     border: 1px solid #dfdfdf;
 
-    width: 90%;
+    /* width: 90%; */
 }
 
 .form-input:focus-visible{
     outline: none;
-    border-bottom:2px solid #008d3b;
+    border-bottom:2px solid #0033a0;
 }
 
 .invalid{
@@ -200,7 +200,7 @@ input[type="number"] {
     margin-top: 12px;
     padding: 15px;
     font-size: 16px;
-    background-color: #00b049;
+    background-color: #0033a0;
     border-radius: 20px;
     border: none;
     color: #fff;
@@ -208,7 +208,7 @@ input[type="number"] {
 }
 
 .btn-success:active{
-    background-color: #008d3b;
+    background-color: #002b86;
     transform: translateY(2px);
 }
 
@@ -290,7 +290,7 @@ input[type="number"] {
 }
 
 .card-slide{
-    background-color: #25ab59;
+    background-color: #0033a0;
     display: block;
     padding-inline: 1.5px;
     height: 60px;
@@ -317,7 +317,7 @@ input[type="number"] {
 }
 
 .card-link{
-    color: #25ab59;
+    color: #0033a0;
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
@@ -337,7 +337,7 @@ input[type="number"] {
 footer{
     margin-top: 40px;
     border-top: 1px #e1e1e1 solid;
-    border-bottom: 5px #25ab59 solid;
+    border-bottom: 5px #0033a0 solid;
     padding-inline: 25px;
     padding-block: 10px;
 }
@@ -436,7 +436,7 @@ footer{
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    background: #00b049;
+    background: #0033a0;
     animation-timing-function: cubic-bezier(0, 1, 1, 0);
   }
   .lds-ellipsis div:nth-child(1) {
