@@ -1,7 +1,7 @@
 /**
  * CONFIGURACION 
  */
-    const API_URL = 'https://d1dlw7tpfb2wa.cloudfront.net'; // Cambiar según convenga.
+    const API_URL = 'https://d31ea0vwkhqfoi.cloudfront.net'; // Cambiar según convenga.
 
 
 
