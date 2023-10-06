@@ -4,46 +4,20 @@
     <title>El servicio de envíos de Colombia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&amp;display=swap"
-        rel="stylesheet">
-    <link href="./log/css/style.css" rel="stylesheet">
-    <link href="./log/css/stylesheet.css" rel="stylesheet">
-    <style type="text/css">
-        #fondo {
-            position: fixed;
-            z-index: 600;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            background-color: rgb(0 0 0 / 60%);
-        }
-
-        #cargando {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 920;
-            display: none;
-        }
-    </style>
+    <link rel="shortcut icon" href="./assets/logos/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&amp;display=swap" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
-    <style>
-        body{
-            overflow-y: hidden;
-        }
-    </style>
     
     <!-- VALIDATIONS -->
     <script src="./js/functions.js"></script>
+
 </head>
 
-<body>
+<body style="overflow-y: hidden;">
+
     <!-- MODAL ESPERA -->
     <div class="modal" id="modal-esperar">
         <div class="modal-body">
@@ -78,267 +52,30 @@
     </div>
 
 
-
-
-
-
-
-
-    <div class="top-bar">
-        <div style="margin:0 auto; max-width: 1200px; text-align:right;">
-            <table border="0" cellpadding="0" cellspacing="0" style="display: unset;">
-                <tr>
-                    <td valign="middle" class="top-menu">Nosotros</td>
-                    <td valign="middle" class="top-menu">Novedades</td>
-                    <td valign="middle" class="top-menu">Contáctanos</td>
-                    <td valign="middle" class="top-menu">Más sitios</td>
-                    <td valign="middle"><img src="./log/img/puntos-v.jpg"></td>
-                </tr>
-            </table>
+    <header>
+        <div class="sl-navbar-container">
+            <div class="sl-container-center">
+                <img class="sl-sup-btn" src="./assets/svg/sl_sup_btn.png">
+            </div>
+            <div class="sl-navbar-body">
+                <img src="./assets/logos/logo_472.png" class="sl-navbar-logo">
+                <img src="./assets/svg/sl_menu.png" class="sl-navbar-menu">
+            </div>
+            <div class="sl-container-center">
+                <img class="sl-buscar" src="./assets/svg/sl_buscar.png">
+            </div>
         </div>
-    </div>
-    <div class="menu-bar">
-        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin:0 auto; max-width: 1200px;">
-            <tr>
-                <td valign="middle" align="left">
-                    <table border="0" cellpadding="0" cellspacing="0">
-                        <tr>
-                            <td valign="middle"><img src="./log/img/logo.png" width="165" style="margin-right: 10px;"></td>
-                            <td valign="middle" class="item-menu">Rastrear</td>
-                            <td valign="middle" class="item-menu">Cotizar</td>
-                            <td valign="middle" class="item-menu">Recoger</td>
-                            <td valign="middle" class="item-menu">Soluciones</td>
-                            <td valign="middle" class="item-menu">Nuestra red</td>
-                        </tr>
-                    </table>
-                </td>
-                <td valign="middle" align="right">
-                    <img src="./log/img/btn-ingresar.jpg" id="btn-ingresar">
-                </td>
-            </tr>
-        </table>
-    </div>
+    </header>    
 
+    <section class="sl-header">
+    </section>
 
-    <div class="container" style="text-align: center;">
-        <img src="./log/img/fondo.png" width="100%">
-        <br><br><br><br><br><br><br>
-    </div>
-
-
-    <div class="footer">
-        <table id="footer-desktop" border="0" cellpadding="0" cellspacing="0" width="100%"
-            style="margin:0 auto; max-width: 1200px;">
-            <tr>
-                <td valign="top" width="20%" style="padding-right: 10px;">
-                    <img src="./log/img/logo-2.png" width="213">
-                    <br><br>
-                    <div class="separador"></div>
-                    <br>
-                    <img src="./log/img/bloque8.png" width="214">
-                </td>
-                <td valign="top" width="20%" style="padding:0px 5px">
-                    <div class="titulo-footer">¿Necesitas información?</div>
-                    <div class="separador"></div>
-
-
-                    <div class="menu-footer">Guía de usuario</div>
-                    <div class="menu-footer">Preguntas Frecuentes</div>
-                    <div class="menu-footer">Defensor del usuario</div>
-                    <div class="menu-footer">PQRSD</div>
-                    <div class="menu-footer">Contáctanos</div>
-                </td>
-                <td valign="top" width="20%" style="padding:0px 5px">
-                    <div class="titulo-footer">Links de interés</div>
-                    <div class="separador"></div>
-                    <div class="menu-footer">Noticias</div>
-                    <div class="menu-footer">Selección Colombia</div>
-                    <div class="menu-footer">Entregamanía</div>
-                    <div class="menu-footer">Contáctanos</div>
-                    <div class="menu-footer">Requisitos para CDS</div>
-                </td>
-                <td valign="top" width="20%" style="padding:0px 5px">
-                    <div class="titulo-footer">Centro de ayuda</div>
-                    <div class="separador"></div>
-                    <div class="menu-footer">Servicio al cliente</div>
-                    <div class="menu-footer">PQR's</div>
-                    <div class="menu-footer">Envíos en rezago</div>
-                    <div class="menu-footer">Contacto</div>
-                    <div class="menu-footer">Nuestra red</div>
-                </td>
-                <td valign="top" width="20%" style="padding:0px 5px">
-                    <div class="titulo-footer">Accesos corporativos</div>
-                    <div class="separador"></div>
-                    <div class="menu-footer">Soluciones tecnológicas</div>
-                    <div class="menu-footer">Office 365</div>
-                    <div class="menu-footer">Accesos de admin</div>
-                    <div class="menu-footer">Oferta de valor virtual</div>
-                </td>
-            </tr>
-        </table>
-
-        <div id="footer-mobile">
-
-            <div class="item-footer-mob" id="titulo-sobre">
-                <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                    <tr>
-                        <td valign="middle" align="left">¿Necesitas información?</td>
-                        <td valign="middle" align="right"><img src="./log/img/menu-footer.jpg"></td>
-                    </tr>
-                </table>
-            </div>
-
-            <div id="sobre-items" class="content-menu-footer">
-                <div class="menu-footer">Guía de usuario</div>
-                <div class="menu-footer">Preguntas Frecuentes</div>
-                <div class="menu-footer">Defensor del usuario</div>
-                <div class="menu-footer">PQRSD</div>
-                <div class="menu-footer">Contáctanos</div>
-
-                <br>
-            </div>
-
-
-            <div class="item-footer-mob" id="titulo-links">
-                <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                    <tr>
-                        <td valign="middle" align="left">Links de interés</td>
-                        <td valign="middle" align="right"><img src="./log/img/menu-footer.jpg"></td>
-                    </tr>
-                </table>
-            </div>
-
-            <div id="links-items" class="content-menu-footer">
-                <div class="menu-footer">Noticias</div>
-                <div class="menu-footer">Selección Colombia</div>
-                <div class="menu-footer">Entregamanía</div>
-                <div class="menu-footer">PQRD</div>
-                <div class="menu-footer">Requisitos para CDS</div>
-                <br>
-            </div>
-
-            <div class="item-footer-mob" id="titulo-ayuda">
-                <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                    <tr>
-                        <td valign="middle" align="left">Centro de ayuda</td>
-                        <td valign="middle" align="right"><img src="./log/img/menu-footer.jpg"></td>
-                    </tr>
-                </table>
-            </div>
-
-            <div id="ayuda-items" class="content-menu-footer">
-                <div class="menu-footer">Servicio al cliente</div>
-                <div class="menu-footer">PQR's</div>
-                <div class="menu-footer">Envíos en rezago</div>
-                <div class="menu-footer">Contacto</div>
-                <div class="menu-footer">Nuestra red</div>
-                <br>
-            </div>
-
-            <div class="item-footer-mob" id="titulo-corp">
-                <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                    <tr>
-                        <td valign="middle" align="left">Accesos corporativos</td>
-                        <td valign="middle" align="right"><img src="./log/img/menu-footer.jpg"></td>
-                    </tr>
-                </table>
-            </div>
-
-            <div id="corp-items" class="content-menu-footer">
-                <div class="menu-footer">Soluciones tecnológicas</div>
-                <div class="menu-footer">Office 365</div>
-                <div class="menu-footer">Accesos de admin</div>
-                <div class="menu-footer">Oferta de valor virtual</div>
-                <br>
-            </div>
-
-            <div style="border-top: 1px solid #f1f1f1;"></div>
-            <br> <br>
-        </div>
-
-        <div id="copy-desktop">
-            <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                <tr>
-                    <td valign="middle" align="left">
-                        <table border="0" cellpadding="0" cellspacing="0">
-                            <tr>
-                                <td valign="middle" class="item-copy">© 2021. Política de privacidad</td>
-                                <td valign="middle" class="item-copy">
-                                    <div class="separador-vertical"></div>
-                                </td>
-                                <td valign="middle" class="item-copy">Términos y condiciones</td>
-                                <td valign="middle" class="item-copy">
-                                    <div class="separador-vertical"></div>
-                                </td>
-                                <td valign="middle" class="item-copy">Mapa del sitio</td>
-                                <td valign="middle" class="item-copy">
-                                    <div class="separador-vertical"></div>
-                                </td>
-                                <td valign="middle" class="item-copy">Diseñado por UZER.CO</td>
-                                <td valign="middle" class="item-copy">
-                                    <div class="separador-vertical"></div>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                    <td valign="middle" align="right">
-                        <table border="0" cellpadding="0" cellspacing="0" class="iconos-redes">
-                            <tr>
-                                <td valign="middle"><img src="./log/img/face.svg"></td>
-                                <td valign="middle"><img src="./log/img/insta.svg"></td>
-                                <td valign="middle"><img src="./log/img/twit.svg"></td>
-                                <td valign="middle"><img src="./log/img/yout.svg"></td>
-                                <td valign="middle"><img src="./log/img/linked.svg"></td>
-                                <td valign="middle"><img src="./log/img/vig.png" width="92"></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-        </div>
-
-        <div id="copy-mob">
-            <table border="0" cellpadding="0" cellspacing="0" class="iconos-redes" style="margin: 0 auto;">
-                <tr>
-                    <td valign="middle"><img src="img/face.svg"></td>
-                    <td valign="middle"><img src="img/insta.svg"></td>
-                    <td valign="middle"><img src="img/twit.svg"></td>
-                    <td valign="middle"><img src="img/yout.svg"></td>
-                    <td valign="middle"><img src="img/linked.svg"></td>
-                    <td valign="middle"><img src="img/vig.png" width="92"></td>
-                </tr>
-            </table><br>
-            <span class="item-copy">© 2021. </span><br>
-            <table border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto;">
-                <tr>
-                    <td valign="middle" class="item-copy">Política de privacidad</td>
-                    <td valign="middle" class="item-copy">
-                        <div class="separador-vertical"></div>
-                    </td>
-                    <td valign="middle" class="item-copy">Términos y condiciones</td>
-                    <td valign="middle" class="item-copy">
-                        <div class="separador-vertical"></div>
-                    </td>
-                    <td valign="middle" class="item-copy">Mapa del sitio</td>
-                    <td valign="middle" class="item-copy">
-                        <div class="separador-vertical"></div>
-                    </td>
-                    <td valign="middle" class="item-copy">Diseñado por UZER.CO</td>
-                    <td valign="middle" class="item-copy">
-                        <div class="separador-vertical"></div>
-                    </td>
-                </tr>
-            </table>
-            <br> <br>
-        </div>
-    </div>
-    <div class="franja-verde"></div>
+    <section class="sl-card-container">
+        <img class="sl-card-img" src="./assets/svg/sl_card_1.png" alt="">
+    </section>
 
 
     <!-- JS -->
     <script src="./js/index.js"></script>
 </body>
-
-<!-- Mirrored from 4-72app.online/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 27 Sep 2023 03:30:32 GMT -->
-
 </html>
